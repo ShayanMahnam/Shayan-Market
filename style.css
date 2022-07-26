@@ -1,11 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 body{
-    background-color: #355764;
+    background-color: #222831;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration: none ;
+}
+header{
+    font-size: 1em;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #393E46;
+}
+
+header nav .nav-left{
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-left a{
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    font-size: 1.1em;
+    transition: .2s;
+    
 }
 
 
+header nav .nav-right .register-login-btn{
+    border: 1px solid whitesmoke;
+    padding: 5px 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header nav .nav-right .register-login-btn i{
+    margin: 7px;
+    color: whitesmoke;
+    font-size: 1.1em;
+
+}
+
+header nav .nav-right .register-login-btn a{
+    color: whitesmoke;
+    margin: 0px 10px;
+    font-size: .9em;
+    transition: .2s;
+}
+
+header nav .logo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 1.1em;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .2s;
+}
+header nav .logo-center span{
+    transition: .4s;
+}
+header nav .nav-right .register-login-btn a:hover{
+    color: #b32920;
+}
+header nav .nav-left a:hover{
+    color: #b32920;
+}
+header nav .logo-center:hover span{
+    color: #b32920;
+
+}
