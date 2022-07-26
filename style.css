@@ -348,11 +348,8 @@ header nav .logo-center:hover span{
 /* comment */
 .comment-box{
     
-    display: inline-block;
-    justify-content: center;
     position: absolute;
-    width: 500px;
-    margin-left:175px ;
+    width: 850px;
 }
 .comment-box textarea{
     width: 100%;
@@ -363,4 +360,18 @@ header nav .logo-center:hover span{
 .comment-box textarea:focus{
     border: 1px solid #393E46;
     outline: 0;
+}
+
+/*footer*/
+.footer-box{
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-box h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
 }
