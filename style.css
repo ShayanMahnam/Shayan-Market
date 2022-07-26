@@ -89,7 +89,6 @@ header nav .logo-center:hover span{
     color: #b32920;
 
 }
-/* slider */
 /* Slideshow container */
 .slideshow-container {
     max-width: 800px;
@@ -97,7 +96,6 @@ header nav .logo-center:hover span{
     margin: auto;
   }
   
-  /* Next & previous buttons */
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -113,18 +111,15 @@ header nav .logo-center:hover span{
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
     height: 15px;
