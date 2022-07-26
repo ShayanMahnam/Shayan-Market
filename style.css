@@ -7,49 +7,5 @@ body{
     background-color: #355764;
     scroll-behavior: smooth;
 }
-.topnav {
-    overflow: hidden;
-    background-color: #5A8F7B;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  .topnav a:hover {
-    background-color: #FFEA11;
-    color: black;
-  }  
-  .topnav .search-container {
-    float: right;
-  }
-  
-  .topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-  }
-  
-  .topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #81CACF;
-    color: white;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .topnav .search-container button:hover {
-    background: #FFEA11 ;
-  }
 
 
