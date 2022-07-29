@@ -1,4 +1,4 @@
-//advert slide//
+//advert slide
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -31,7 +31,7 @@ if (document.readyState == 'loading') {
 } else {
     ready()
 }
-// shopping cart //
+// shopping cart 
 function ready() {
     var removeCartItemButtons = document.getElementsByClassName('btn-danger')
     for (var i = 0; i < removeCartItemButtons.length; i++) {
